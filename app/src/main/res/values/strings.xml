@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FileViewer</string>
+    <string name="sort_by_name_a_z">Sort by name (A-Z)</string>
+    <string name="sort_by_name_z_a">Sort by name (Z-A)</string>
+    <string name="sort_by_date_oldest_first">Sort by date (oldest first)</string>
+    <string name="sort_by_date_newest_first">Sort by date (newest first)</string>
+    <string name="sort_by_date_smallest_first">Sort by date (smallest first)</string>
+    <string name="sort_by_date_biggest_first">Sort by date (biggest first)</string>
+    <string name="sort_by_format_a_z">Sort by format (A-Z)</string>
+    <string name="sort_by_format_z_a">Sort by format (Z-a)</string>
+</resources>

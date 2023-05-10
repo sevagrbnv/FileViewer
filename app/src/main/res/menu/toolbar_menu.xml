@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sort_menu_item"
+        android:icon="@drawable/kebab"
+        android:title="Sort"
+        app:showAsAction="always">
+        <menu>
+            <group >
+                <item
+                    android:id="@+id/sort_name_asc"
+                    android:title="@string/sort_by_name_a_z" />
+                <item
+                    android:id="@+id/sort_name_desc"
+                    android:title="@string/sort_by_name_z_a" />
+                <item
+                    android:id="@+id/sort_date_asc"
+                    android:title="@string/sort_by_date_oldest_first" />
+                <item
+                    android:id="@+id/sort_date_desc"
+                    android:title="@string/sort_by_date_newest_first" />
+                <item
+                    android:id="@+id/sort_size_asc"
+                    android:title="@string/sort_by_date_smallest_first" />
+                <item
+                    android:id="@+id/sort_size_desc"
+                    android:title="@string/sort_by_date_biggest_first" />
+
+                <item
+                    android:id="@+id/sort_format_asc"
+                    android:title="@string/sort_by_format_a_z" />
+                <item
+                    android:id="@+id/sort_format_desc"
+                    android:title="@string/sort_by_format_z_a" />
+            </group>
+        </menu>
+    </item>
+</menu>
+
+
+
+
